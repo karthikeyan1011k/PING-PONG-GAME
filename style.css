@@ -1,6 +1,6 @@
 /* body make more color ful using gradient */
 body{
-    background: linear-gradient( to bottom right,  #d97ce3 , hsl(294, 46%, 50%) , hwb(302 24% 13%));
+    background: linear-gradient( to bottom right,  #d97ce3 , hsl(294, 46%, 50%) , #e255bd);
 }
 /* make position relative */
 #container{
