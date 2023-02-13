@@ -1,0 +1,41 @@
+/* body make more color ful using gradient */
+body{
+    background: linear-gradient( to bottom right,  #d97ce3 , hsl(294, 46%, 50%) , hwb(302 24% 13%));
+}
+/* make position relative */
+#container{
+  position: relative;
+
+}
+/* make ball color & style */
+#ball{
+    width: 20px;
+    height: 20px;
+    background-color: #5dc434;
+    position: fixed;
+    top: 20%;
+    left: 52.5%;
+    border-radius: 50%;
+
+}
+/* rod style */
+#rod1 , #rod2{
+    width: 200px;
+    height: 20px;
+    position: fixed;
+    left: 50%;
+    border-radius: 25%;
+    text-align: center;
+    color: #aeaeae;
+    font-weight: bold;
+}
+/* Rod1 color */
+#rod1{
+    background-color: #1c0644;
+    top: 0px;
+}
+/* rod 2 style */
+#rod2{
+    background-color: hsl(263, 89%, 35%);
+    bottom: 0px;
+}
